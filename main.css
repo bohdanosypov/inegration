@@ -1,0 +1,354 @@
+*{
+	margin: 0/*0px 50px 0px 50px*/;
+	padding: 0;
+	font-family: 'Syncopate', sans-serif;
+	scroll-behavior: smooth;
+}
+
+a{
+	cursor: pointer;
+}
+
+body {
+	background: white;
+/*background: rgba(227, 215, 164, 0.25);*/
+}
+
+main {
+	background: rgba(227, 215, 164, 1);
+	max-width: 1200px;
+	margin: 20px auto;
+}
+
+.tema{
+	text-align: center;
+	margin: 25px auto;
+}
+            /*Стиль Header*/
+
+#dimpng img{
+	
+	max-width: 150px;
+}
+
+#dimpng img:hover {
+	transform: rotateZ(360deg);
+	transition: all 0.9s ease 0.1s;
+	
+}
+
+header nav:hover{
+	transform: scale(1.2, 1);
+	transition: all 0.8s, ease 0s;
+}
+
+header{
+	background: url(images/header.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 792px;
+	width: 100%;
+	object-position: center;
+	position: relative;
+
+}
+
+
+header img{
+	width: 350px;
+	
+}
+
+header h1{
+	margin: 15px ;
+	position: absolute;
+	top: 600px;
+	left: 350px;
+	color: #FFFFFF;
+	font-size: 35px;
+	line-height: 60px;
+	align-items: center;
+	text-align: right;
+
+}
+
+header h1:hover{
+	transform: skew(-30deg, 0deg);
+	transition: all 0,8s ease 0s;
+}
+
+header nav{
+	color: rgba(27, 26, 24, 0.7);
+	position: absolute;
+	left: 300px;
+	top: 15px;
+}
+
+header a{
+	text-decoration: none;
+	font-size: 30px;
+	line-height: 50px;
+	align-items: center;
+	text-align: center;
+	padding: 0 8px;
+	color: rgba(27, 26, 24, 0.7);
+}
+
+nav a:hover{
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+           /*Стиль Про нас*/
+.about-us {
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	padding: 25px auto;
+	margin: 25px auto;
+	text-align: center;
+}
+
+about-us p{
+	padding: auto 25px;
+	margin: auto 25px;
+}
+
+.about-us img{
+	width: 50%;
+	
+}
+
+       /*Стиль Новини*/
+.news{
+	justify-content: center;
+	text-align: center;
+}
+
+.news p{
+	padding: 25px;
+	margin: 5px 50px 35px 50px;
+	background: rgba(251, 255, 39, 0.77);
+	justify-content: center;
+	text-align: center;
+}
+
+.news img{
+	max-width: 40%;
+	margin: auto 20px;
+}
+
+      /*Стиль Проекти*/
+
+.projects {
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	padding: 25px auto;
+	margin: 25px auto;
+}
+
+.projects p{
+	padding: auto 25px;
+	margin: auto 25px;
+}
+
+.projects img{
+	width: 85%;
+}
+     /*Стиль Документи*/
+.documents{
+	justify-content: center;
+	text-align: center;
+	display: flex;
+}
+
+.doc{
+	margin: 5px 70px 25px 70px;
+}
+
+        /*Стиль footer*/
+footer{
+	padding: 25px;
+	background: rgba(251, 255, 39, 0.9);
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+}
+
+footer p{
+	padding: 15px;
+}
+
+
+
+
+.mag{
+	
+	display: flex;
+	justify-content: center;
+}
+.mag img{
+	width: 8%;
+	margin: auto 5px;
+}
+
+video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1;
+}
+
+table{
+	
+	position: absolute;
+	right: 20px;
+	top: 815px;
+	padding: 10px;
+	
+
+}
+
+.posht{
+	display: flex;
+}
+
+.menu-triger{
+	position: absolute;
+	/*display: block;*/
+	display: none;
+	width: 40px;
+	height: 40px;
+	right: 15px;
+	top: 70px;
+	background: url(images/open.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.menu-close{
+	position: absolute;
+	display: block;
+	/*display: none;*/
+	width: 40px;
+	height: 40px;
+	right: 15px;
+	top: 70px;
+	background: url(images/close.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.menu-popup{
+	background: rgba(251, 255, 39, 0.9);
+	widows: 100vw;
+	display: none;
+
+}
+
+.menu-popup li a{
+	text-decoration: none;
+	color: rgba(27, 26, 24, 0.7);
+}
+
+.menu-popup ul{
+	text-align: right;
+}
+
+.main-menu-container ul {
+text-align: center;
+justify-content: flex-start;
+list-style: none; 
+height: 50px; 
+width: 100px;
+}
+.main-menu-container a {
+color: #fff; 
+padding:0px 15px; 
+display: block;
+min-width: 150px; 
+border-right: 1px solid white; 
+-moz-transition: all 0.3s 0.01s ease;
+-o-transition: all 0.3s 0.01s ease;
+-webkit-transition: all 0.3s 0.01s ease;
+}
+.main-menu-container a:hover {
+background: #D43737; 
+}
+.main-menu-container li {
+position: relative; 
+}
+
+.main-menu-container li > ul {
+position: absolute; 
+top: 50px; 
+display: none; 
+}
+
+
+.main-menu-container li:hover > ul {
+display: block;
+width: 250px; 
+}
+
+
+@media (max-width: 600px ) {
+	header h1{
+		position: absolute;
+		left: 10px;
+	}
+	header img{
+		width: 150px;
+	}
+	header nav{
+		display: none;
+	}
+	.about-us{
+		flex-direction: column;
+	}
+	.about-us img{
+		width: 15%;
+	}
+	.news img{
+		max-width: 100vw;
+		margin: 5px 5px;
+		padding: auto 10px;
+	}
+	.news p{
+		padding: 10px;
+		margin: 5px 15px 35px 15px;
+	}
+	.projects{
+		flex-direction: column;
+	}
+	.projects img{
+		width: 65%;
+	}
+	.projects p{
+		margin: 5px 25px 25px 25px;
+	}
+	.documents{
+		flex-direction:column;
+	}
+	footer{
+		flex-direction: column;
+		font-size: 10px;
+		padding: 15px 5px;
+	}
+	footer p{
+		font-size: 15px;
+	}
+	.mag img{
+		width: 5%;
+	}
+	.menu-triger{
+		display: block;
+	}
+	.menu-popup{
+		display: none;
+	}
+
+
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta property="og:image" content="https://***/sitephoto/DIM.png">
+	<link rel="shortcut icon" href="DIM.png" type="image/png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet">
+	<link rel="stylesheet"  href="main.css">
+	<title>Контакти</title>
+</head>
+<body>
+	<main>
+		<header>
+			<div id="dimpng">
+				<img src="images/DIM.png">
+			</div>
+			<nav >
+				<a href="#about">Про нас</a>
+				<a href="#new">Новини</a>
+				<a href="#project">Проекти</a>	
+				<a href="#document">Документи</a>
+				<a href="#contact">Контакти</a>
+				<div class="main-menu-container">
+					<ul>
+						<li><a href="Contact.html" class="menu-link">FQA</a>
+								<ul>
+									<li><a href="#">Питання</a></li>
+									<li><a href="#">Відповіді</a></li>
+									<li><a href="#">Таблиця</a></li>
+								</ul>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<div class="menu">
+				<a class="menu-triger" onclick="showme()"></a>
+				<div class="menu-popup">
+					<a class="menu-close" onclick="hideme()"></a>
+					<ul>
+						<li><a href="#about">Про нас</a></li>
+						<li><a href="#new">Новини</a></li>
+						<li><a href="#project">Проекти</a></li>
+						<li><a href="#Contact.html">FQA</a></li>
+						<li><a href="#document">Документи</a></li>
+						<li><a href="#contact">Контакти</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="header-text">
+				<h1> Мрійте. Прагніть. Досягайте. </h1>
+			</div>
+		</header>
+
+		<script type="text/javascript">
+			function hideme() {
+				document.getElementsByClassName('menu-triger')[0].style.display="block";
+				document.getElementsByClassName('menu-popup')[0].style.display="none";
+			}
+
+			function showme() {
+				document.getElementsByClassName('menu-popup')[0].style.display="block";
+				document.getElementsByClassName('menu-triger')[0].style.display="none";
+			}
+		</script>
+
+		<section>
+			<div class="posht">
+			<div class="up">
+				<table>
+					<caption>Графік роботи</caption>
+					<thead>
+					  <tr>
+					    <th>День тиждня</th>
+					    <th>Роботчий час</th>
+					    <th>Обідня перерва</th>
+					  </tr>
+					</thead>
+					<tr>
+					  <td>Понеділок</td>
+					  <td>8:00 - 16:00</td>
+					  <td>12:00 - 13:00</td>
+					</tr> 
+					<tr>
+					  <td>Вівторок</td>
+					  <td>9:00 - 17:00</td>
+					  <td>13:00 - 14:00</td>
+					</tr>
+					<tr>
+					  <td>Середа</td>
+					  <td>11:00 - 19:00</td>
+					  <td>15:00 - 16:00</td>
+					</tr> 
+					<tr>
+					  <td>Четверг</td>
+					  <td>9:00 - 18:00</td>
+					  <td>13:30 - 14:30</td>
+					</tr> 
+					<tr>
+					  <td>П'ятниця</td>
+					  <td>9:00 - 13:00</td>
+					  <td>12:00 - 13:30</td>
+					</tr> 
+				</table>
+			</div>
+			<div>
+				<p>Скарги та пропозиції</p>
+					<hr>
+						<form>
+						  <lable>І'мя:</lable><br>
+						  <input type="text" name="login"><br>
+						  
+							<lable>Ваш номер телефону:</lable><br>
+						  	<input type="text"><br>
+
+						  <lable>Email:</lable><br>
+						  <input type="email" name=""><br>
+						  				  
+						  <lable>Ваше повідомлення:</lable><br>
+						  <textarea></textarea>
+						  <br>
+						  
+						  <input type="submit" value="Відправити">
+						</form>
+			</div>
+			</div>
+			<div>
+				<video autoplay muted loop>
+					<source src="images/video.mp4" type="">
+				</video>
+			</div>
+		</section>
+
+		<footer>
+			<div>
+				<div id="dimpng"><img src="images/DIM2.png"></div>
+				<p><b>Громадська організація "Добротвірська ініціативна молодь"</b></p>
+			</div>
+
+			<div>
+				<p><b>Ми в соц. мережах</b></p>
+				<div class="mag">
+					<img src="images/facebook.png">
+					<img src="images/instagram.png">
+					<img src="images/telegram.png">
+				</div>
+			</div>
+
+			<div>
+				<p><b>Контакти</b> <br>смт Добротвір, вул. Сагайдачного, 10<br> +380936246541 <br>dobro.int.molod@gmail.com <br> Код ЄДРПОУ<br> 43348381</p>
+			</div>
+		</footer>
+	</main>
+
+</body>
+</html>

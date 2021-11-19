@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta property="og:image" content="https://***/images/DIM.png">
+	<link rel="shortcut icon" href="images/DIM.png" type="image/png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet">
+	<link rel="stylesheet"  href="main.css">
+	<title>ГО "ДІМ"</title>
+</head>
+<body>
+	<main>
+		<header>
+			<div id="dimpng">
+				<img src="images/DIM.png">
+			</div>
+			<nav>
+				<a href="#about">Про нас</a>
+				<a href="#new">Новини</a>
+				<a href="#project">Проекти</a>
+				<a href="Contact.html">FQA</a>
+				<a href="#document">Документи</a>
+				<a href="#contact">Контакти</a>
+			</nav>
+
+			<div class="menu">
+				<a class="menu-triger" onclick="showme()"></a>
+				<div class="menu-popup">
+					<a class="menu-close" onclick="hideme()"></a>
+					<ul>
+						<li><a href="#about">Про нас</a></li>
+						<li><a href="#new">Новини</a></li>
+						<li><a href="#project">Проекти</a></li>
+						<li><a href="#Contact.html">FQA</a></li>
+						<li><a href="#document">Документи</a></li>
+						<li><a href="#contact">Контакти</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="header-text">
+				<h1> Мрійте. Прагніть. Досягайте. </h1>
+			</div>
+		</header>
+
+		<script type="text/javascript">
+			function hideme() {
+				document.getElementsByClassName('menu-triger')[0].style.display="block";
+				document.getElementsByClassName('menu-popup')[0].style.display="none";
+			}
+
+			function showme() {
+				document.getElementsByClassName('menu-popup')[0].style.display="block";
+				document.getElementsByClassName('menu-triger')[0].style.display="none";
+			}
+		</script>
+
+		<section id="about">
+			<h2 class="tema">Про нас</h2>
+			<article class="about-us">
+				<div>
+					<div><img src="images/icon-team.png"></div>
+					<p><b>Об’єднуємо</b><br>Місцеву молодь задля розвитку громади</p>
+				</div>
+
+				<div>
+					<div><img src="images/icon-experience.png"></div>
+					<p><b>Волонтеримо</b><br>Наша діяльність спрямована на залучення молоді до реалізації проектів</p>
+				</div>
+
+				<div>
+					<div><img src="images/icon-idea.png"></div>
+					<p><b>Створюємо</b><br>Табори для активного та духовного відпочику дітей</p>
+				</div>
+			</article>
+		</section>
+		<section id="new">
+			<h2 class="tema">Новини</h2>
+			<article class="news">
+				<div >
+					<div >
+						<img src="images/newsone.jpg">
+						<img src="images/newstwo.jpg">
+					</div>
+					<div><p>Вітаємо всіх з Днем святого Миколая. Це найказковіше свято з-поміж усіх, адже в цей день стається справжнє диво. Учора 19.12.20 р. ми разом з керівниками бібліотеки ім. В. Петраха провели свято для маленьких діток дошкільного віку. Це не було стандартне свято. Ми грали ігри, співали пісеньки, а також робили листівки разом із дітками. У кінці  кожен отримав подарунок. Знаєте, дарувати набагато приємніше, ніж отримувати.</p></div>
+					
+				</div>
+
+				<div >
+					<div >
+						<img src="images/newsthree.jpg">
+						<img src="images/newsfour.jpg">
+					</div>
+					<div ><p>Учора 28.12.19 р. наша організація приєдналася до благодійної справи, а саме: поїздки в Сасівський дитячий будинок разом із ЛЦОА Vodafone Україна. Ці діти такі як і ми, вони мають багато іграшок, хороший одяг, мобільні телефони та іншу техніку, але на жаль, вони не мають найголовнішого - сім'ї. Це цінніше за всі речі світу. Дітям бракує уваги, родинного тепла та любові. У кожного з них важка доля. Їхні історії вражають і нікого не зможуть залишити байдужим. Бачити щастя в їхніх очах безцінно.</p></div>
+				</div>
+			</article>
+		</section>
+		<section id="project">
+			 <h2 class="tema">Проекти</h2>
+			<article class="projects">
+				<div>
+					<div><img src="images/proect-one.jpg"></div>
+					<p>Табір<br>“Веселі канікули в Карпатах” м. Сколе</p>
+				</div>
+
+				<div>
+					<div><img src="images/proect-two.jpg"></div>
+					<p>Табір<br>“Веселі канікули з Богом” при громадській бібліотеці ім. Василя Петраха</p>
+				</div>
+
+				<div>
+					<div><img src="images/proect-three.jpg"></div>
+					<p>День Святого Миколая<br>при громадській бібліотеці ім. Василя Петраха</p>
+				</div>
+			</article>
+		</section>
+		
+		<section id="document">
+			<h2 class="tema">Документи</h2>
+			<article class="documents">
+				<div class="doc">
+					<p>Статут ГО "ДІМ"</p>
+					<div><button>Завантажити</button></div>
+				</div>
+
+				<div class="doc">
+					<p>Протокол засновників ГО "ДІМ"</p>
+					<div><button>Завантажити</button></div>
+				</div>
+
+				<div class="doc">
+					<p>Виписка з ЄДР</p>
+					<button>Завантажити</button>
+				</div>
+			</article>
+		</section>
+
+		<footer id="contact">
+			<div>
+				<div id="dimpng"><img src="images/DIM2.png"></div>
+				<p><b>Громадська організація "Добротвірська ініціативна молодь"</b></p>
+			</div>
+
+			<div>
+				<p><b>Ми в соц. мережах</b></p>
+				<div class="mag">
+					<img src="images/facebook.png">
+					<img src="images/instagram.png">
+					<img src="images/telegram.png">
+				</div>
+			</div>
+
+			<div>
+				<p><b>Контакти</b> <br>смт Добротвір, вул. Сагайдачного, 10<br> +380936246541 <br>dobro.int.molod@gmail.com <br> Код ЄДРПОУ<br> 43348381</p>
+			</div>
+		</footer>
+	</main>
+</body>
+</html>
